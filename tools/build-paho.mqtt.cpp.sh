@@ -26,7 +26,7 @@ cd ${DIR}/../external/paho.mqtt.cpp
 git status
 git fetch
 git fetch --tags
-git checkout v1.0.1
+git checkout v1.1
 set -e
 cd
 

@@ -25,7 +25,7 @@ git clone -q https://github.com/eclipse/paho.mqtt.c.git "${DIR}/../external/paho
 cd "${DIR}/../external/paho.mqtt.c"
 git status || git init
 git fetch --tags
-git checkout v1.3.0
+git checkout v1.3.1
 set -e
 
 

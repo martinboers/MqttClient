@@ -50,6 +50,7 @@ find_package(ArpProgramming REQUIRED)
 find_package(PahoMqttCpp REQUIRED)
 find_package(PahoMqttCS REQUIRED)
 find_package(PahoMqttAS REQUIRED)
+find_package(Threads REQUIRED)
 
 target_link_libraries(PxceTcs.Mqtt.Client PRIVATE ArpDevice ArpProgramming
                         PahoMqttCpp::paho-mqttpp3
